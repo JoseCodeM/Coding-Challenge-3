@@ -13,7 +13,7 @@ console.log(arrowAdd100(2)); //102
 
 //3 Create an arrow function that takes TWO arguments, a string and a single letter.  The 
 //function will count the number of times the specified letter occurs in the string. **Not case sensitive
-const hello = (str, letter) => str.split(letter).length - 1;
+const countLetters = (str, letter) => str.split(letter).length - 1;
 //Testing
-console.log(hello("hello","l")); //2
-console.log(hello("my name is jose martinez", "m")); //3
+console.log(countLetters("hello","l")); //2
+console.log(countLetters("my name is jose martinez", "m")); //3
